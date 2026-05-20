@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-900: #0A0C10;
+  --color-dark-800: #161B22;
+  --color-dark-700: #21262D;
+  --color-dark-border: #30363D;
+  --color-dark-text: #C9D1D9;
+  --color-dark-muted: #8B949E;
+
+  --color-primary: #58A6FF;
+  --color-primary-hover: #3182CE;
+
+  --color-status-easy: #3FB950;
+  --color-status-medium: #D29922;
+  --color-status-hard: #F85149;
+
+  --font-family-sans: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-dark-900);
+    color: var(--color-dark-text);
+    font-family: var(--font-family-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-track { background: var(--color-dark-900); }
+  ::-webkit-scrollbar-thumb { background: var(--color-dark-border); border-radius: 4px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--color-dark-muted); }
+}
+
+@layer components {
+  .btn-primary {
+    padding: 0.5rem 1rem;
+    background-color: var(--color-primary);
+    color: white;
+    border-radius: 0.375rem;
+    font-weight: 600;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    border: none;
+  }
+  .btn-primary:hover {
+    background-color: var(--color-primary-hover);
+  }
+  .btn-outline {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--color-dark-border);
+    color: var(--color-dark-text);
+    border-radius: 0.375rem;
+    font-weight: 500;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    background: transparent;
+  }
+  .btn-outline:hover {
+    background-color: var(--color-dark-800);
+  }
+  .card {
+    background-color: var(--color-dark-800);
+    border: 1px solid var(--color-dark-border);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  }
+  .input-field {
+    width: 100%;
+    background-color: var(--color-dark-900);
+    border: 1px solid var(--color-dark-border);
+    color: var(--color-dark-text);
+    border-radius: 0.375rem;
+    padding: 0.5rem 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .input-field:focus {
+    border-color: var(--color-primary);
+  }
+}
