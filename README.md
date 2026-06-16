@@ -1,106 +1,152 @@
-🚀 Smart DSA Helper
 <div align="center">
-Master Data Structures & Algorithms with Smart Tracking and Progress Analytics
 
+# 🧠 Smart DSA Helper
 
+**Master Data Structures & Algorithms with Smart Tracking and Progress Analytics**
 
+An intelligent platform to organize your DSA journey — with AI-powered recommendations, progress analytics, and placement-focused preparation tools.
 
+![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+![Frontend](https://img.shields.io/badge/frontend-React%20%2B%20Vite-61DAFB?style=flat-square)
+![Backend](https://img.shields.io/badge/backend-Node.js%20%2B%20Express-68A063?style=flat-square)
+![Database](https://img.shields.io/badge/database-MongoDB-47A248?style=flat-square)
 
-
-
-
-An intelligent platform designed to streamline DSA preparation, track progress, and boost coding interview readiness.
-
-⭐ Star this repository if you find it useful!
+⭐ **Star this repo if you find it useful!**
 
 </div>
-📌 Overview
 
-Smart DSA Helper is a full-stack web application built to help students and developers organize their Data Structures & Algorithms journey efficiently.
+---
 
-The platform provides an intuitive interface to:
+## 📌 Overview
 
-Track solved problems
-Organize questions topic-wise
-Monitor learning progress
-Maintain consistency
+Smart DSA Helper is a full-stack web application built for students and developers preparing for technical interviews. It combines structured problem tracking, intelligent recommendations, and consistency tooling — so you can focus on learning, not managing spreadsheets.
 
-✨ Features
-🔐 Authentication & User Management
-Secure User Registration and Login
-JWT-based Authentication
-Personalized User Dashboard
-Session Management
-📚 Smart Problem Tracking
-Add, Update, and Delete DSA Problems
-Track Solved and Unsolved Questions
-Store Problem Links and Notes
-Difficulty-based Categorization (Easy, Medium, Hard)
-🏷️ Topic-wise Organization
+---
 
-Organize problems by DSA topics such as:
+## ✨ Features
 
-Arrays
-Strings
-Linked Lists
-Trees
-Graphs
-Dynamic Programming
-Greedy Algorithms
-Recursion
-Backtracking
-Binary Search
-Stacks & Queues
-📊 Progress Analytics
-Topic-wise Progress Tracking
-Overall Completion Statistics
-Visual Performance Insights
-Problem-solving Trends
-🔥 Daily Streak System
-Track Daily Coding Consistency
-Maintain Practice Streaks
-Encourage Habit Formation
-Streak Recovery Mechanism
-📅 Calendar Heatmap
-GitHub-style Activity Heatmap
-Visualize Daily Practice History
-Monitor Long-term Consistency
-Analyze Coding Patterns
-🤖 AI-Based Problem Recommendations
-Personalized Problem Suggestions
-Adaptive Learning Paths
-Smart Recommendations Based on Progress
-Improve Weak Areas Automatically
-🔗 LeetCode API Integration
-Fetch Problem Data Automatically
-Sync Solved Problems
-Access Real-time Problem Information
-Track LeetCode Progress Seamlessly
-🔎 Advanced Search & Filtering
-Search Problems Instantly
-Filter by Topic
-Filter by Difficulty
-Filter by Completion Status
-🎯 Interview Preparation
-Company-wise Question Tracking
-Structured Learning Roadmap
-Placement-focused Preparation
-Revision Support
+### 🔐 Authentication & User Management
+- Secure registration and login with **JWT-based** session management
+- Personalized user dashboard with session persistence
 
-🛠️ Tech Stack
-Frontend
-React.js
-Vite
-JavaScript
-CSS
-Backend
-Node.js
-Express.js
-Database
-MongoDB
-Tools
-Git & GitHub
-REST APIs
-Prepare effectively for coding interviews
+### 📚 Problem Tracking
+- Add, update, and delete DSA problems
+- Track solved/unsolved status, store problem links and personal notes
+- Difficulty-based categorization: **Easy · Medium · Hard**
 
-Whether you're preparing for placements, competitive programming, or technical interviews, Smart DSA Helper acts as your personal DSA companion.
+### 🏷️ Topic-wise Organization
+
+Organize problems by 11+ DSA categories:
+
+`Arrays` `Strings` `Linked Lists` `Trees` `Graphs` `Dynamic Programming` `Greedy Algorithms` `Recursion` `Backtracking` `Binary Search` `Stacks & Queues`
+
+### 📊 Progress Analytics
+- Topic-wise completion statistics
+- Overall progress summaries and visual performance insights
+- Problem-solving trend analysis
+
+### 🔥 Daily Streak System
+- Track daily coding consistency
+- Streak recovery mechanism to keep motivation high
+- Encourages sustainable practice habits
+
+### 📅 Calendar Heatmap
+- GitHub-style activity heatmap
+- Visualize daily practice history at a glance
+- Spot long-term consistency patterns
+
+### 🤖 AI-Based Problem Recommendations
+- Personalized problem suggestions based on your progress
+- Adaptive learning paths that target weak areas automatically
+
+### 🔗 LeetCode Integration
+- Fetch problem data via LeetCode API
+- Sync solved problems and track LeetCode progress seamlessly
+
+### 🔎 Advanced Search & Filtering
+- Search problems instantly
+- Filter by topic, difficulty, or completion status
+
+### 🎯 Interview Preparation
+- Company-wise question tracking
+- Structured learning roadmap for placements and technical rounds
+- Revision support for targeted prep
+
+---
+
+## 🛠️ Tech Stack
+
+
+|
+ Layer 
+|
+ Technology 
+|
+|
+---
+|
+---
+|
+|
+ Frontend 
+|
+ React.js, Vite, JavaScript, CSS 
+|
+|
+ Backend 
+|
+ Node.js, Express.js 
+|
+|
+ Database 
+|
+ MongoDB 
+|
+|
+ Auth 
+|
+ JWT 
+|
+|
+ Tooling 
+|
+ Git, GitHub, REST APIs 
+|
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/smart-dsa-helper.git
+
+# Install frontend dependencies
+cd client && npm install
+
+# Install backend dependencies
+cd ../server && npm install
+
+# Start the development servers
+npm run dev
+```
+
+> Add a `.env` file in `/server` with your MongoDB URI and JWT secret before running.
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to open a pull request or file an issue.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+Built for students, by developers · Smart DSA Helper
+</div>
