@@ -1,16 +1,106 @@
-# React + Vite
+🚀 Smart DSA Helper
+<div align="center">
+Master Data Structures & Algorithms with Smart Tracking and Progress Analytics
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+An intelligent platform designed to streamline DSA preparation, track progress, and boost coding interview readiness.
+
+⭐ Star this repository if you find it useful!
+
+</div>
+📌 Overview
+
+Smart DSA Helper is a full-stack web application built to help students and developers organize their Data Structures & Algorithms journey efficiently.
+
+The platform provides an intuitive interface to:
+
+Track solved problems
+Organize questions topic-wise
+Monitor learning progress
+Maintain consistency
+
+✨ Features
+🔐 Authentication & User Management
+Secure User Registration and Login
+JWT-based Authentication
+Personalized User Dashboard
+Session Management
+📚 Smart Problem Tracking
+Add, Update, and Delete DSA Problems
+Track Solved and Unsolved Questions
+Store Problem Links and Notes
+Difficulty-based Categorization (Easy, Medium, Hard)
+🏷️ Topic-wise Organization
+
+Organize problems by DSA topics such as:
+
+Arrays
+Strings
+Linked Lists
+Trees
+Graphs
+Dynamic Programming
+Greedy Algorithms
+Recursion
+Backtracking
+Binary Search
+Stacks & Queues
+📊 Progress Analytics
+Topic-wise Progress Tracking
+Overall Completion Statistics
+Visual Performance Insights
+Problem-solving Trends
+🔥 Daily Streak System
+Track Daily Coding Consistency
+Maintain Practice Streaks
+Encourage Habit Formation
+Streak Recovery Mechanism
+📅 Calendar Heatmap
+GitHub-style Activity Heatmap
+Visualize Daily Practice History
+Monitor Long-term Consistency
+Analyze Coding Patterns
+🤖 AI-Based Problem Recommendations
+Personalized Problem Suggestions
+Adaptive Learning Paths
+Smart Recommendations Based on Progress
+Improve Weak Areas Automatically
+🔗 LeetCode API Integration
+Fetch Problem Data Automatically
+Sync Solved Problems
+Access Real-time Problem Information
+Track LeetCode Progress Seamlessly
+🔎 Advanced Search & Filtering
+Search Problems Instantly
+Filter by Topic
+Filter by Difficulty
+Filter by Completion Status
+🎯 Interview Preparation
+Company-wise Question Tracking
+Structured Learning Roadmap
+Placement-focused Preparation
+Revision Support
+
+🛠️ Tech Stack
+Frontend
+React.js
+Vite
+JavaScript
+CSS
+Backend
+Node.js
+Express.js
+Database
+MongoDB
+Tools
+Git & GitHub
+REST APIs
+Prepare effectively for coding interviews
+
+Whether you're preparing for placements, competitive programming, or technical interviews, Smart DSA Helper acts as your personal DSA companion.
