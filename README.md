@@ -1,15 +1,29 @@
 <div align="center">
 
+<br>
+
 # 🧠 Smart DSA Helper
 
-**Master Data Structures & Algorithms with Smart Tracking and Progress Analytics**
+### Master Data Structures & Algorithms with Smart Tracking and Progress Analytics
 
-An intelligent platform to organize your DSA journey — with AI-powered recommendations, progress analytics, and placement-focused preparation tools.
+<p>An intelligent platform to organize your DSA journey — with AI-powered recommendations,<br>streak tracking, and placement-focused preparation tools.</p>
 
+<br>
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
+
+<br>
+
+[![GitHub stars](https://img.shields.io/github/stars/your-username/smart-dsa-helper?style=social)](https://github.com/your-username/smart-dsa-helper)
+[![GitHub forks](https://img.shields.io/github/forks/your-username/smart-dsa-helper?style=social)](https://github.com/your-username/smart-dsa-helper/fork)
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
-![Frontend](https://img.shields.io/badge/frontend-React%20%2B%20Vite-61DAFB?style=flat-square)
-![Backend](https://img.shields.io/badge/backend-Node.js%20%2B%20Express-68A063?style=flat-square)
-![Database](https://img.shields.io/badge/database-MongoDB-47A248?style=flat-square)
+
+<br>
 
 ⭐ **Star this repo if you find it useful!**
 
@@ -19,125 +33,129 @@ An intelligent platform to organize your DSA journey — with AI-powered recomme
 
 ## 📌 Overview
 
-Smart DSA Helper is a full-stack web application built for students and developers preparing for technical interviews. It combines structured problem tracking, intelligent recommendations, and consistency tooling — so you can focus on learning, not managing spreadsheets.
+> Smart DSA Helper helps students and developers organize their interview prep without the spreadsheet chaos. Track problems, visualize progress, stay consistent with streaks, and get AI-driven suggestions tailored to your weak areas — all in one place.
 
 ---
 
 ## ✨ Features
 
-### 🔐 Authentication & User Management
-- Secure registration and login with **JWT-based** session management
-- Personalized user dashboard with session persistence
+<table>
+<tr>
+<td width="50%">
+
+### 🔐 Authentication
+- Secure registration & login with **JWT**
+- Personalized user dashboard
+- Session management & persistence
 
 ### 📚 Problem Tracking
-- Add, update, and delete DSA problems
-- Track solved/unsolved status, store problem links and personal notes
-- Difficulty-based categorization: **Easy · Medium · Hard**
-
-### 🏷️ Topic-wise Organization
-
-Organize problems by 11+ DSA categories:
-
-`Arrays` `Strings` `Linked Lists` `Trees` `Graphs` `Dynamic Programming` `Greedy Algorithms` `Recursion` `Backtracking` `Binary Search` `Stacks & Queues`
+- Add, update, and delete problems
+- Track solved/unsolved status
+- Store links, notes, and difficulty tags
 
 ### 📊 Progress Analytics
 - Topic-wise completion statistics
-- Overall progress summaries and visual performance insights
+- Visual performance insights
 - Problem-solving trend analysis
 
 ### 🔥 Daily Streak System
 - Track daily coding consistency
-- Streak recovery mechanism to keep motivation high
-- Encourages sustainable practice habits
+- Streak recovery mechanism
+- Habit-building reminders
+
+</td>
+<td width="50%">
 
 ### 📅 Calendar Heatmap
 - GitHub-style activity heatmap
-- Visualize daily practice history at a glance
+- Visualize daily practice history
 - Spot long-term consistency patterns
 
-### 🤖 AI-Based Problem Recommendations
-- Personalized problem suggestions based on your progress
-- Adaptive learning paths that target weak areas automatically
+### 🤖 AI Recommendations
+- Personalized problem suggestions
+- Adaptive paths targeting weak areas
+- Smart learning flow
 
 ### 🔗 LeetCode Integration
-- Fetch problem data via LeetCode API
-- Sync solved problems and track LeetCode progress seamlessly
+- Auto-fetch problem data via API
+- Sync solved problems seamlessly
 
-### 🔎 Advanced Search & Filtering
-- Search problems instantly
-- Filter by topic, difficulty, or completion status
+### 🔎 Search & Filter
+- Instant problem search
+- Filter by topic, difficulty, status
 
-### 🎯 Interview Preparation
-- Company-wise question tracking
-- Structured learning roadmap for placements and technical rounds
-- Revision support for targeted prep
+</td>
+</tr>
+</table>
+
+---
+
+## 🏷️ Topics Covered
+
+| Category | Topics |
+|---|---|
+| **Linear** | Arrays, Strings, Linked Lists, Stacks & Queues |
+| **Non-Linear** | Trees, Graphs |
+| **Techniques** | Dynamic Programming, Greedy, Recursion, Backtracking, Binary Search |
 
 ---
 
 ## 🛠️ Tech Stack
 
-
-|
- Layer 
-|
- Technology 
-|
-|
----
-|
----
-|
-|
- Frontend 
-|
- React.js, Vite, JavaScript, CSS 
-|
-|
- Backend 
-|
- Node.js, Express.js 
-|
-|
- Database 
-|
- MongoDB 
-|
-|
- Auth 
-|
- JWT 
-|
-|
- Tooling 
-|
- Git, GitHub, REST APIs 
-|
+| Layer | Technology | Purpose |
+|---|---|---|
+| **Frontend** | React.js + Vite | UI & build tooling |
+| **Backend** | Node.js + Express.js | REST API server |
+| **Database** | MongoDB | Data persistence |
+| **Auth** | JWT | Secure sessions |
+| **DevOps** | Git & GitHub | Version control |
+| **Integration** | LeetCode REST API | Problem sync |
 
 ---
 
 ## 🚀 Getting Started
 
-```bash
-# Clone the repository
+````bash
+# 1. Clone the repository
 git clone https://github.com/your-username/smart-dsa-helper.git
+cd smart-dsa-helper
 
-# Install frontend dependencies
+# 2. Install frontend dependencies
 cd client && npm install
 
-# Install backend dependencies
+# 3. Install backend dependencies
 cd ../server && npm install
 
-# Start the development servers
-npm run dev
-```
+# 4. Configure environment variables
+cp .env.example .env
+# → Add your MongoDB URI and JWT secret to .env
 
-> Add a `.env` file in `/server` with your MongoDB URI and JWT secret before running.
+# 5. Start the development servers
+npm run dev
+````
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] Friends & leaderboard system
+- [ ] Mobile app (iOS & Android)
+- [ ] Timed mock interview sessions
+- [ ] AI-assisted smart notes
+- [ ] Dark mode support
+- [ ] Offline mode
 
 ---
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to open a pull request or file an issue.
+Contributions, issues, and feature requests are welcome!
+
+1. Fork the repo
+2. Create a branch: `git checkout -b feature/your-feature`
+3. Commit your changes: `git commit -m 'feat: add your feature'`
+4. Push: `git push origin feature/your-feature`
+5. Open a Pull Request
 
 ---
 
@@ -148,5 +166,9 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 <div align="center">
-Built for students, by developers · Smart DSA Helper
+
+Built with ❤️ for students preparing for technical interviews
+
+**[⬆ Back to top](#-smart-dsa-helper)**
+
 </div>
