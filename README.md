@@ -111,6 +111,30 @@
 | **DevOps** | Git & GitHub | Version control |
 | **Integration** | LeetCode REST API | Problem sync |
 
+---
+
+## 🚀 Getting Started
+
+````bash
+# 1. Clone the repository
+git clone https://github.com/your-username/smart-dsa-helper.git
+cd smart-dsa-helper
+
+# 2. Install frontend dependencies
+cd client && npm install
+
+# 3. Install backend dependencies
+cd ../server && npm install
+
+# 4. Configure environment variables
+cp .env.example .env
+# → Add your MongoDB URI and JWT secret to .env
+
+# 5. Start the development servers
+npm run dev
+````
+
+---
 
 ## 🗺️ Roadmap
 
